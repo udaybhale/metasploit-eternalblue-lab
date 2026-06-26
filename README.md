@@ -150,7 +150,7 @@ meterpreter >
 
 Successfully completed the TryHackMe Metasploit Introduction room.
 
-![Room Completed](screenshots/09_CompletedSuccessfully.png)
+![Room Completed](screenshots/"09_Completed Successfully".png)
 
 ---
 
